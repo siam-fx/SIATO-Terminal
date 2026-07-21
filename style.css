@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    background: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Consolas, monospace;
+}
+
+/* Terminal Window */
+.terminal {
+
+    width: 800px;
+    height: 500px;
+
+    background: #0c2168;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 0 20px rgba(0, 0, 0, 0.4);
+
+}
+
+/* Header */
+.header {
+
+    background: #21262d;
+
+    padding: 15px;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+/* Output Area */
+#output {
+
+    color: #00ff66;
+
+    padding: 20px;
+
+    height: 390px;
+
+    overflow-y: auto;
+
+}
+
+/* Input Line */
+.input-line {
+
+    display: flex;
+
+    padding: 15px;
+
+    color: #00ff66;
+
+}
+
+/* Input Box */
+#commandInput {
+
+    flex: 1;
+
+    margin-left: 10px;
+
+    background: transparent;
+
+    border: none;
+
+    color: #00ff66;
+
+    font-size: 16px;
+
+    outline: none;
+
+}
+
+/* Green command text */
+.command {
+
+    color: cyan;
+
+}
